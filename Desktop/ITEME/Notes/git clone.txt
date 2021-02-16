@@ -1,0 +1,112 @@
+
+
+to clone project
+usa uri eclipse workspace
+ugashiramo new folder
+right-click
+gitbash here
+then past this
+student@DESKTOP-4R3FLF5 MINGW64 ~/eclipse-workspace/itemmeProject
+$ git init
+Initialized empty Git repository in C:/Users/student/eclipse-workspace/itemmeProject/.git/
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/eclipse-workspace/itemmeProject (master)
+$ git config --global user.name "nyampinga"
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/eclipse-workspace/itemmeProject (master)
+$ git config --global user.email "joselynenya@gmail.com"
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/eclipse-workspace/itemmeProject (master)
+$ git clone https://gitlab.com/iteme-java-training/usermanagement.git
+Cloning into 'usermanagement'...
+remote: Enumerating objects: 405, done.
+remote: Counting objects: 100% (405/405), done.
+remote: Compressing objects: 100% (221/221), done.
+remote: Total 405 (delta 134), reused 319 (delta 95), pack-reused 0
+Receiving objects: 100% (405/405), 2.51 MiB | 398.00 KiB/s, done.
+Resolving deltas: 100% (134/134), done.
+Updating files: 100% (324/324), done.
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/eclipse-workspace/itemmeProject (master)
+
+
+
+
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/Documents/NetBeansProjects/ecommerce (main)
+$ git add .
+warning: LF will be replaced by CRLF in E-Commerce/nbproject/ant-deploy.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in E-Commerce/src/java/hibernate.cfg.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in E-Commerce/web/WEB-INF/web.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in E-Commerce/web/index.xhtml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in E-Commerce/web/welcomePrimefaces.xhtml.
+The file will have its original line endings in your working directory
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/Documents/NetBeansProjects/ecommerce (main)
+$ git commit -m "Ecommerce saved"
+[main c4e1d38] Ecommerce saved
+ 22 files changed, 2171 insertions(+)
+ create mode 100644 E-Commerce/build.xml
+ create mode 100644 E-Commerce/nbproject/ant-deploy.xml
+ create mode 100644 E-Commerce/nbproject/build-impl.xml
+ create mode 100644 E-Commerce/nbproject/genfiles.properties
+ create mode 100644 E-Commerce/nbproject/private/private.properties
+ create mode 100644 E-Commerce/nbproject/project.properties
+ create mode 100644 E-Commerce/nbproject/project.xml
+ create mode 100644 E-Commerce/src/conf/MANIFEST.MF
+ create mode 100644 E-Commerce/src/java/DAO/GenericDao.java
+ create mode 100644 E-Commerce/src/java/Domain/Category.java
+ create mode 100644 E-Commerce/src/java/Domain/Customer.java
+ create mode 100644 E-Commerce/src/java/Domain/Delivery.java
+ create mode 100644 E-Commerce/src/java/Domain/HibernateUtil.java
+ create mode 100644 E-Commerce/src/java/Domain/Order.java
+ create mode 100644 E-Commerce/src/java/Domain/Product.java
+ create mode 100644 E-Commerce/src/java/Domain/Shop_owner.java
+ create mode 100644 E-Commerce/src/java/Domain/User.java
+ create mode 100644 E-Commerce/src/java/Domain/test.java
+ create mode 100644 E-Commerce/src/java/hibernate.cfg.xml
+ create mode 100644 E-Commerce/web/WEB-INF/web.xml
+ create mode 100644 E-Commerce/web/index.xhtml
+ create mode 100644 E-Commerce/web/welcomePrimefaces.xhtml
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/Documents/NetBeansProjects/ecommerce (main)
+$ git add .
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/Documents/NetBeansProjects/ecommerce (main)
+$ git commit -m "Ecommerce saved"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+It took 3.71 seconds to compute the branch ahead/behind values.
+You can use '--no-ahead-behind' to avoid this.
+
+nothing to commit, working tree clean
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/Documents/NetBeansProjects/ecommerce (main)
+$ git remote add origin https://github.com/bcodingltd/ecommerce.git
+fatal: remote origin already exists.
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/Documents/NetBeansProjects/ecommerce (main)
+$ git push origin main
+fatal: unable to access 'https://github.com/bcodingltd/ecommerce.git/': Could not resolve host: github.com
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/Documents/NetBeansProjects/ecommerce (main)
+$ git push origin main
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Enumerating objects: 35, done.
+Counting objects: 100% (35/35), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (29/29), done.
+Writing objects: 100% (34/34), 20.39 KiB | 869.00 KiB/s, done.
+Total 34 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), done.
+To https://github.com/bcodingltd/ecommerce.git
+   82f5e01..c4e1d38  main -> main
+
+student@DESKTOP-4R3FLF5 MINGW64 ~/Documents/NetBeansProjects/ecommerce (main)
+
